@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images.jpg');
+    /* You can customize other background properties, such as size, position, and repeat. */
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    background-color: #7fe0f1fa;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+h1 {
+    color: #a6070f;
+    /* Adjust heading color for better contrast */
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 8px;
+    color: #0c040b;
+    /* Adjust label color for better contrast */
+}
+
+textarea {
+    font-weight: bold;
+    height: 120px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #edede5;
+    /* Set textarea background color */
+}
+
+button {
+    color: #0d0c0d;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    font-size: 18px;
+    background-color: #343deb;
+    /* Set button background color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #131885;
+    /* Adjust hover color for the button */
+}

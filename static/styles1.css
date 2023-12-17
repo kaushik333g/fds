@@ -1,0 +1,15 @@
+body {
+    background-image: url(family-figure-shape-stethoscope-with-copy-space_23-2148488223.jpg);
+background-size: cover;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    margin-top: 20%;
+    padding: 0;
+    /* background-image: url('..nd.jpg'); */
+    color: rgb(37, 37, 188);
+    /* text-shadow: 10px 10px 10px rgba(29, 185, 209, 0.5); */
+    align-items: center;
+    /* You can customize other background properties, such as size, position, and repeat. */
+}
